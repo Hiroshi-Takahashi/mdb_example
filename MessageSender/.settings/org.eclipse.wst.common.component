@@ -3,7 +3,85 @@
 	<wb-module deploy-name="MessageSender">
 		<property name="context-root" value="MessageSender"/>
 		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.33.Final/119a52dd0818028dfe9ac92471ecebf3038f5cca/netty-all-4.0.33.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/org.apache.activemq/artemis-commons/1.1.0.wildfly-017/77f57ff621bb88abb47d813df40145cea46f894a/artemis-commons-1.1.0.wildfly-017.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/org.apache.activemq/artemis-hqclient-protocol/1.1.0.wildfly-017/dfab68e391614f58379b81d5241591039415fd0e/artemis-hqclient-protocol-1.1.0.wildfly-017.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/org.apache.activemq/artemis-core-client/1.1.0.wildfly-017/3c3eecef26f07f7bc50bf66cac6a84fbc77f6e9/artemis-core-client-1.1.0.wildfly-017.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.2.1.Final/fedf11b3d4665a434b554a5891fe7f208f029f45/jboss-logging-3.2.1.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/org.apache.activemq/artemis-journal/1.1.0.wildfly-017/9fed9e74a38d2921b3447c17ba05a0e5e0e0a494/artemis-journal-1.1.0.wildfly-017.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.9.2/7a87d845ad3a155297e8f67d9008f4c1e5656b71/commons-beanutils-1.9.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/org.jboss.sasl/jboss-sasl/1.0.5.Final/44fb5196d36ab056b930ed571029505330d25978/jboss-sasl-1.0.5.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/org.jboss.logmanager/jboss-logmanager/1.5.3.Final/76228b67be9960df8f321df6e334bd9b86a2f8c7/jboss-logmanager-1.5.3.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.5/6b262da268f8ad9eff941b25503a9198f0a0ac93/slf4j-api-1.7.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/761ea405b9b37ced573d2df0d1e3a4e0f9edc668/commons-collections-3.2.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/org.apache.activemq/artemis-native/1.1.0.wildfly-017/752b4815b6942e4817c69e233d3590cc5ac18f52/artemis-native-1.1.0.wildfly-017.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.jms/jboss-jms-api_2.0_spec/1.0.0.Final/1a5d61a9a92e509b385477bc6fc3cad9e34f5ebc/jboss-jms-api_2.0_spec-1.0.0.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/org.jboss.remoting/jboss-remoting/4.0.9.Final/10934d6cffd4221812505041e6fb14633c08ef4e/jboss-remoting-4.0.9.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/org.jgroups/jgroups/3.6.10.Final/fc0ff5a8a9de27ab62939956f705c2909bf86bc2/jgroups-3.6.10.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/org.apache.activemq/artemis-jms-client/1.1.0.wildfly-017/85e6c6159bf84d5d9f8930ea2d8f8ac5236ebada/artemis-jms-client-1.1.0.wildfly-017.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/org.apache.activemq/artemis-selector/1.1.0.wildfly-017/d5d5d4e25aa7fc1f70447bc95fa64c8fbf73115e/artemis-selector-1.1.0.wildfly-017.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/org.jboss/jboss-ejb-client/2.0.0.Final/2ece81d63a8ab98f96b1e2e200d0e5930235ad94/jboss-ejb-client-2.0.0.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/org.jboss/jboss-remote-naming/2.0.4.Final/e177b58d46373c099e7492ad923c1af9864e93ad/jboss-remote-naming-2.0.4.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/org.jboss.marshalling/jboss-marshalling/1.4.10.Final/9a5955ce41944668ab5a5d610fa506bec7f057ee/jboss-marshalling-1.4.10.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/org.jboss.marshalling/jboss-marshalling-river/1.4.10.Final/181bc342f5ccd2776393715570453201d2fd059c/jboss-marshalling-river-1.4.10.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/org.jboss.xnio/xnio-nio/3.3.1.Final/80c43ca621307d17f9088e2f1f696f0faa8f60d9/xnio-nio-3.3.1.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/org.wildfly.checkstyle/wildfly-checkstyle-config/1.0.4.Final/aeb9716b965ad69c077a656955ffd42e5383ac3c/wildfly-checkstyle-config-1.0.4.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/hiroshi/.gradle/caches/modules-2/files-2.1/org.jboss.xnio/xnio-api/3.3.1.Final/cc740b8a8fbbb03d68aaf748f83e6f450b93618f/xnio-api-3.3.1.Final.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 	</wb-module>
