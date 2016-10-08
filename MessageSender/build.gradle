@@ -11,6 +11,17 @@ repositories {
 
 dependencies {
     compile 'org.slf4j:slf4j-api:1.7.5'
-    providedCompile group: 'org.wildfly', name: 'wildfly-jms-client-bom', version: '10.1.0.Final'
+    // WildFlyのJMSクライアントに関するモジュール
+    compile(group: 'org.wildfly', name: 'wildfly-jms-client-bom', version: '10.1.0.Final') {
+        exclude group: 'org.jboss.spec.javax.servlet'  // tomcatのservletと競合してしまうため除く
+    }
     testCompile 'junit:junit:4.11'
+}
+
+eclipse {
+    // .classpath の設定
+    classpath {
+        // Tomcat8のライブラリ宣言
+        containers 'org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0'
+    }
 }
