@@ -1,0 +1,36 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.5
+version = '1.0'
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Quickstart',
+                   'Implementation-Version': version
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://repository.jboss.org/nexus/content/repositories/releases/"
+    }
+}
+
+dependencies {
+    // wildfly10用のJMSクライアントモジュール
+    compile group: 'org.wildfly', name: 'wildfly-jms-client-bom', version: '10.1.0.Final'
+    testCompile group: 'junit', name: 'junit', version: '4.+'
+}
+
+test {
+    systemProperties 'property': 'value'
+}
+
+uploadArchives {
+    repositories {
+       flatDir {
+           dirs 'repos'
+       }
+    }
+}
